@@ -27,14 +27,6 @@ A parse of the recurring complete status lines found:
 4. The zero-reference changes show that the calibration routine executed, but do not prove that the accelerator was at its true released position at each calibration event.
 5. The log's first and last records may be partial serial lines. Treat the CSV as a raw export and preserve it unchanged.
 
-## Recommended next tests
-
-- Record the potentiometer ADC reading with the accelerator fully released and fully pressed before defining a calibration range.
-- Verify that calibration is only accepted when the accelerator is confirmed released.
-- Log brake state and controller state without blocking the main loop.
-- Measure motor supply voltage and current with suitable instruments.
-- If speed behaviour is to be discussed, add an appropriate motor-speed sensor and record its readings.
-- Repeat each test under controlled, documented conditions and retain raw logs.
 
 ## Scope statement
 
