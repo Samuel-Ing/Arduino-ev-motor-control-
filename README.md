@@ -70,7 +70,6 @@ These are observations from the exported log only. They do not independently est
 - The motor's startup/stall current and the power supply's response under load were not measured.
 - This bench prototype is not intended for road use.
 
-Before further powered testing, verify the motor's terminal identification and rated current, confirm the driver and supply are suitable for the motor's startup/stall current, secure the motor mechanically, insulate exposed conductors, and use appropriate overcurrent protection.
 
 ## Next development stage
 
@@ -91,4 +90,3 @@ The next planned stage is to adapt and validate the control logic on an ESP32 pl
     └── preliminary_test_notes.md
 ```
 
-The Arduino sketch should be added to `code/` as the exact version used for this test, after checking that the file matches the tested build. Do not substitute a later ESP32 sketch for the Arduino Uno test source.
